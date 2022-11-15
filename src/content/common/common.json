@@ -1,0 +1,30 @@
+{
+    "name": "Arafat hossain",
+    "logoType": {
+        "mobile": "HP",
+        "desktop": "Arafat Hossain"
+    },
+    "mainPicture": "/assets/HP.webp",
+    "mainPictureJPG": "/assets/HP.jpeg",
+    "pronunciation": "/ri-shi-kaysh/",
+    "audioFile": "/assets/name-pro.mp3",
+    "cssVarPrefix": "hp",
+    "email": "arafathossain847@@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/arafat-hossain-b58659108/",
+    "github": "https://github.com/arafat1023",
+    "resume": "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1s3G7PiPHlK3Ett_W-WUU01GQnsggiLrWZB3IiMAgBEk/export?format=pdf",
+    "socials": [
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/arafat-hossain-b58659108/"
+        },
+        {
+            "type": "github",
+            "link": "https://github.com/arafat1023"
+        },
+        {
+            "type": "mail",
+            "link": "arafathossain847@@gmail.com"
+        }
+    ]
+}

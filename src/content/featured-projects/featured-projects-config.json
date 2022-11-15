@@ -1,0 +1,46 @@
+[
+    {
+        "id": "featured-project-daency",
+        "title": "Daency",
+        "year": "September 2021 - Present",
+        "location": "Dhaka,Nerddevs",
+        "demo": "https://daency.com/",
+        "tags": ["Vuejs", "TypeScript", "NodeJS", "Web Sockets", "Vuetify", "Mongodb", "Redis"],
+        "description": "An Online group dance platfrom where user can learn from interactive classes.",
+        "image": "/assets/featured-projects/daency.png",
+        "jpg": "/assets/featured-projects/daency.png"
+    },
+    {
+        "id": "featured-project-daily-stocks",
+        "title": "Daily stocks",
+        "year": "Jan 2022 - Present",
+        "location": "Dhaka,Nerddevs",
+        "demo": "https://dailystocks.info/",
+        "tags": ["Vuejs", "TypeScript", "NodeJS", "flask", "postgresql", "Push notification", "Web Sockets", "Vuetify", "Mongodb", "Redis"],
+        "description": "A push notification service to get daily update of dhaka stock exchange.",
+        "image": "/assets/featured-projects/dailystocks.png",
+        "jpg": "/assets/featured-projects/dailystocks.jpeg"
+    },
+    {
+        "id": "featured-project-bikribatta",
+        "title": "Bikribatta",
+        "year": "Jan 2022 - Present",
+        "location": "Dhaka,Nerddevs",
+        "demo": "https://app.bikribatta.com/",
+        "tags": ["Vuejs", "TypeScript", "NodeJS", "Mongodb", "backbonejs"],
+        "description": "An inventory solution for managing business in a simple way",
+        "image": "/assets/featured-projects/bikribatta.png",
+        "jpg": "/assets/featured-projects/bikribatta.jpeg"
+    },
+    {
+        "id": "featured-project-palette",
+        "title": "Project management",
+        "year": "March 2019 - August,2021",
+        "location": "Dhaka,Sheraspace",
+        "demo": "https://sheraspace.com/",
+        "tags": ["Reactjs", "flask", "postgresql"],
+        "description": "A project management tool for interior based platfrom of sheraspace company",
+        "image": "/assets/featured-projects/bikribatta.png",
+        "jpg": "/assets/featured-projects/bikribatta.jpeg"
+    }
+]
