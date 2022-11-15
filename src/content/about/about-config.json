@@ -6,8 +6,6 @@
             "degree": "BSC in Computer Science and engineering",
             "duration": "Aug 2014 - December 2018",
             "content": [
-                "GPA: 4/4",
-                "Courses: Software Engineering, Distributed Systems, Operating Systems, Advanced Algorithms, Experience Design"
             ]
         }
     ],
@@ -18,9 +16,8 @@
             "position": "Software Engineer",
             "duration": "September 2021 - Present",
             "description": [
-                "Revamping the current report generation framework using React, that aggregates data from 30 modules to support an interactive cartesian system.​",
-                "Integrated user activity data from BigQuery into a custom tailored dashboard available to 10000+ clients.",
-                "Spearheaded the work on multiple reports for 5 priority clients to provide additional functionalities."
+                "Worked on frontend, backend, database to implement solutions for multiple projects using various technology",
+                "Learned industry best practices under senior engineers"
             ]
         },
         {
@@ -29,9 +26,7 @@
             "position": "Software Engineer",
             "duration": "March 2018 - August 2021",
             "description": [
-                "Developed state of the art visualization tools for researchers and doctors to envision large biological datasets using ​Angular 11​, Node & Vega.​",
-                "Devised an algorithm to compute statistics that highlight anomalies in the data and displayed them on an intuitive interface.",
-                "Created detailed UX flows, experience maps, wire-frames and conducted interviews across various biological consortia to enhance user experience."
+                "worked from scratch on a project management tool from the setup to deployment"
             ]
         }
     ],

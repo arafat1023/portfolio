@@ -96,17 +96,17 @@ export const MenuDrawer: FC<Props> = ({ onSectionClick, currentPage, ...props })
                             >
                                 About
                             </Button>
-                            <Button
-                                variant="link"
-                                color="primary.500"
-                                onClick={onResumeOpen}
-                                data-aos="fade"
-                                data-aos-delay="400"
-                                fontWeight="600"
-                                fontSize="2xl"
-                            >
-                                Resume
-                            </Button>
+                            {/*<Button*/}
+                            {/*    variant="link"*/}
+                            {/*    color="primary.500"*/}
+                            {/*    onClick={onResumeOpen}*/}
+                            {/*    data-aos="fade"*/}
+                            {/*    data-aos-delay="400"*/}
+                            {/*    fontWeight="600"*/}
+                            {/*    fontSize="2xl"*/}
+                            {/*>*/}
+                            {/*    Resume*/}
+                            {/*</Button>*/}
                         </VStack>
                         <Flex justifyContent="center" mt="16">
                             <Socials delay={100} resume={false} />

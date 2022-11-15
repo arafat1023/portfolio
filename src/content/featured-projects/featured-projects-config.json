@@ -40,7 +40,7 @@
         "demo": "https://sheraspace.com/",
         "tags": ["Reactjs", "flask", "postgresql"],
         "description": "A project management tool for interior based platfrom of sheraspace company",
-        "image": "/assets/featured-projects/bikribatta.png",
-        "jpg": "/assets/featured-projects/bikribatta.jpeg"
+        "image": "/assets/featured-projects/project.png",
+        "jpg": "/assets/featured-projects/project.png"
     }
 ]
