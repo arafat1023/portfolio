@@ -22,7 +22,7 @@ export const Projects: FC = () => {
     const projects = [
         {
             title: "TissueConnect",
-            description: "A predictive analytics platform for innovative diagnostics and therapies in spinal diseases, including an Electron-based application integrated with Vue.js and Python for analyzing MRI data.",
+            description: "A predictive analytics platform for innovative diagnostics and therapies in spinal diseases, utilizing an Electron-based application integrated with Vue.js and Python for MRI data analysis. Led end-to-end development with muscle analysis algorithms and robust backend services.",
             image: `${process.env.PUBLIC_URL}/assets/featured-projects/tissueconnect.png`,
             technologies: ["Vue.js", "JavaScript", "Electron", "PostgreSQL", "Flask", "Azure"],
             liveUrl: "https://tissueconnect.ai/",
@@ -46,9 +46,9 @@ export const Projects: FC = () => {
         },
         {
             title: "Daency",
-            description: "An Online group dance platform where users can learn from interactive classes with real-time features.",
+            description: "An online group dance platform enabling users to learn through interactive live classes. Integrated WebRTC for real-time video, Stripe for payment processing, and Redis-based task queues for scalable job management.",
             image: `${process.env.PUBLIC_URL}/assets/featured-projects/daency.png`,
-            technologies: ["Vue.js", "TypeScript", "Node.js", "WebSockets", "MongoDB"],
+            technologies: ["Vue.js", "TypeScript", "Express.js", "Jest", "MongoDB", "WebRTC"],
             liveUrl: "https://daency.com/",
             featured: true,
         },
@@ -62,17 +62,17 @@ export const Projects: FC = () => {
         },
         {
             title: "Bikribatta",
-            description: "An inventory solution for managing business operations in a simple and efficient way.",
+            description: "An inventory management solution designed to simplify business operations for small to medium enterprises. Architected accounts management, comprehensive reporting systems, and employee management modules. Spearheaded migration from Backbone.js to Vue 3.",
             image: `${process.env.PUBLIC_URL}/assets/featured-projects/bikribatta.png`,
-            technologies: ["Vue.js", "TypeScript", "Node.js", "MongoDB"],
+            technologies: ["Vue.js", "JavaScript", "Express.js", "Backbone.js", "MongoDB"],
             liveUrl: "https://app.bikribatta.com/",
             featured: false,
         },
         {
             title: "Project Management Tool",
-            description: "A comprehensive project management platform built for interior design workflow management.",
+            description: "A comprehensive project management platform for Sheraspace, implementing account management, reporting systems, and HR modules. Developed complex reporting features utilizing advanced PostgreSQL queries and Chart.js visualizations. Integrated 3D model viewer for SketchUp designs.",
             image: `${process.env.PUBLIC_URL}/assets/featured-projects/project.png`,
-            technologies: ["React.js", "Flask", "PostgreSQL"],
+            technologies: ["React.js", "Flask", "PostgreSQL", "Chart.js"],
             liveUrl: "https://sheraspace.com/",
             featured: false,
         },

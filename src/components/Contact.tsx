@@ -42,7 +42,7 @@ const socialLinks = [
     {
         icon: FiLinkedin,
         label: "LinkedIn",
-        href: "https://www.linkedin.com/in/arafat-hossain-dev/",
+        href: "https://www.linkedin.com/in/arafat-hossain-b58659108/",
         color: "#0077B5",
     },
     {

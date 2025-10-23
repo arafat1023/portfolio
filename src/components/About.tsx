@@ -71,15 +71,15 @@ export const About: FC = () => {
                                     My Journey
                                 </Heading>
                                 <Text fontSize="lg" color="gray.600" lineHeight="tall">
-                                    I'm a Software Engineer at{" "}
+                                    I'm a Senior Software Engineer at{" "}
                                     <Text as="span" color="brand.400" fontWeight="600">
                                         Nerddevs
                                     </Text>{" "}
                                     based in Dhaka, Bangladesh. I graduated from{" "}
                                     <Text as="span" color="brand.400" fontWeight="600">
-                                        Brac University
+                                        BRAC University
                                     </Text>{" "}
-                                    with a BSC in Computer Science and Engineering.
+                                    with a B.SC in Computer Science and Engineering.
                                 </Text>
                                 <Text fontSize="lg" color="gray.600" lineHeight="tall">
                                     With 5+ years of expertise in building scalable web applications, I have a strong track record of{" "}

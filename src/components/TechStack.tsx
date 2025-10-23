@@ -28,6 +28,7 @@ import {
     SiLinux,
     SiTailwindcss,
     SiFlask,
+    SiExpress,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -50,6 +51,7 @@ const techCategories = [
         color: "green",
         technologies: [
             { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
+            { name: "Express.js", icon: SiExpress, color: "#000000" },
             { name: "Python", icon: SiPython, color: "#3776AB" },
             { name: "Flask", icon: SiFlask, color: "#000000" },
         ],

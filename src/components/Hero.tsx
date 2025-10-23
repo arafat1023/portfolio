@@ -117,9 +117,10 @@ export const Hero: FC = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.8 }}
                         >
-                            I'm a full-stack developer based in Dhaka, Bangladesh, specializing in
-                            modern web technologies like React, Vue.js, and Node.js. I love building
-                            scalable applications and learning new technologies.
+                            Experienced full-stack software developer with 5+ years of experience building
+                            and optimizing web applications. Skilled in JavaScript, TypeScript, Vue.js, Node.js,
+                            Python, and cloud platforms such as AWS and Azure, with a proven ability to lead
+                            feature implementation and solve complex challenges.
                         </MotionText>
 
                         <MotionBox
