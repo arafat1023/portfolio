@@ -151,7 +151,7 @@ export const InteractiveAbout: FC = () => {
                                 <VStack spacing={6}>
                                     <Box position="relative">
                                         <Image
-                                            src="/assets/landing/face.jpg"
+                                            src={`${process.env.PUBLIC_URL}/assets/arafat2.jpg`}
                                             alt="Arafat Hossain"
                                             borderRadius="full"
                                             w="150px"

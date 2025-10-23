@@ -213,7 +213,7 @@ export const Landing: FC = () => {
                                 }}
                             >
                                 <Image
-                                    src={configs.landing.jpg}
+                                    src={`${process.env.PUBLIC_URL}${configs.landing.jpg}`}
                                     alt="Arafat Hossain"
                                     borderRadius="xl"
                                     w="full"

@@ -4,8 +4,8 @@
         "mobile": "HP",
         "desktop": "Arafat Hossain"
     },
-    "mainPicture": "/assets/HP.webp",
-    "mainPictureJPG": "/assets/HP.jpeg",
+    "mainPicture": "/assets/arafat2.jpg",
+    "mainPictureJPG": "/assets/arafat2.jpg",
     "pronunciation": "/ri-shi-kaysh/",
     "audioFile": "/assets/name-pro.mp3",
     "cssVarPrefix": "hp",

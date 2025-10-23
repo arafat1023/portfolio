@@ -179,7 +179,7 @@ export const Hero: FC = () => {
                             }}
                         >
                             <Image
-                                src="/assets/landing/face.jpg"
+                                src={`${process.env.PUBLIC_URL}/assets/arafat2.jpg`}
                                 alt="Arafat Hossain"
                                 borderRadius="full"
                                 w="400px"

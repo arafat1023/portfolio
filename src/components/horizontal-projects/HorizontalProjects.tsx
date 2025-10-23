@@ -131,7 +131,7 @@ export const HorizontalProjects: FC = () => {
                                 {/* Project Image */}
                                 <Box position="relative" overflow="hidden">
                                     <MotionImage
-                                        src={project.jpg}
+                                        src={`${process.env.PUBLIC_URL}${project.jpg}`}
                                         alt={project.title}
                                         w="full"
                                         h="200px"

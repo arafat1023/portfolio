@@ -19,7 +19,7 @@
         "tags": ["Vuejs", "TypeScript", "NodeJS", "flask", "postgresql", "Push notification", "Web Sockets", "Vuetify", "Mongodb", "Redis"],
         "description": "A push notification service to get daily update of dhaka stock exchange.",
         "image": "/assets/featured-projects/dailystocks.png",
-        "jpg": "/assets/featured-projects/dailystocks.jpeg"
+        "jpg": "/assets/featured-projects/dailystocks.png"
     },
     {
         "id": "featured-project-bikribatta",
@@ -30,7 +30,7 @@
         "tags": ["Vuejs", "TypeScript", "NodeJS", "Mongodb", "backbonejs"],
         "description": "An inventory solution for managing business in a simple way",
         "image": "/assets/featured-projects/bikribatta.png",
-        "jpg": "/assets/featured-projects/bikribatta.jpeg"
+        "jpg": "/assets/featured-projects/bikribatta.png"
     },
     {
         "id": "featured-project-palette",

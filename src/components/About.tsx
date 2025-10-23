@@ -92,29 +92,6 @@ export const About: FC = () => {
                                     </Text>.
                                     I'm passionate about creating efficient solutions across frontend, backend, and database development.
                                 </Text>
-                                
-                                {/* Leadership Experience */}
-                                <VStack align="flex-start" spacing={4}>
-                                    <Heading as="h4" size="md" fontWeight="700" color="brand.400">
-                                        Leadership Experience
-                                    </Heading>
-                                    <VStack align="flex-start" spacing={3}>
-                                        <Text fontSize="md" color="gray.600" lineHeight="tall">
-                                            <Text as="span" fontWeight="600">Co-ordinator of Event Management</Text> at{" "}
-                                            <Text as="span" color="brand.400" fontWeight="600">
-                                                BRAC University Adventure Club
-                                            </Text>{" "}
-                                            (2017-2018) - Organized club fair 'Winter Mayhem' and several club events.
-                                        </Text>
-                                        <Text fontSize="md" color="gray.600" lineHeight="tall">
-                                            <Text as="span" fontWeight="600">General Member</Text> at{" "}
-                                            <Text as="span" color="brand.400" fontWeight="600">
-                                                BRAC University Computer Club
-                                            </Text>{" "}
-                                            (2016-2017) - Organized programming workshops and contests.
-                                        </Text>
-                                    </VStack>
-                                </VStack>
 
                                 <Text fontSize="lg" color="gray.600" lineHeight="tall">
                                     When I'm not coding, I love watching football ⚽, reading books,

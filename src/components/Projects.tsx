@@ -18,66 +18,66 @@ import { motion } from "framer-motion";
 
 const MotionBox = motion(Box);
 
-const projects = [
-    {
-        title: "TissueConnect",
-        description: "A predictive analytics platform for innovative diagnostics and therapies in spinal diseases, including an Electron-based application integrated with Vue.js and Python for analyzing MRI data.",
-        image: "/assets/featured-projects/tissueconnect.png",
-        technologies: ["Vue.js", "JavaScript", "Electron", "PostgreSQL", "Flask", "Azure"],
-        liveUrl: "https://tissueconnect.ai/",
-        featured: true,
-    },
-    {
-        title: "Biddaan",
-        description: "An education platform for conducting online classes and managing the overall course management. Contributed to both admin portal and main website development, focusing on course and class management, report generation, and course preview integration.",
-        image: "/assets/featured-projects/biddan.png",
-        technologies: ["Vue.js", "JavaScript", "Express.js", "MongoDB", "AWS"],
-        liveUrl: "https://biddaan.com/",
-        featured: true,
-    },
-    {
-        title: "AI Mate",
-        description: "A mobile chatbot based on OpenAI's GPT API. Built the REST API using OpenAPI specifications and developed the admin side of the project for managing chatbot interactions and user data.",
-        image: "/assets/featured-projects/aimate.webp",
-        technologies: ["TypeScript", "Vue.js", "Express.js", "Redis", "Jest", "MongoDB"],
-        liveUrl: "https://play.google.com/store/apps/details?id=com.aimate.app",
-        featured: true,
-    },
-    {
-        title: "Daency",
-        description: "An Online group dance platform where users can learn from interactive classes with real-time features.",
-        image: "/assets/featured-projects/daency.png",
-        technologies: ["Vue.js", "TypeScript", "Node.js", "WebSockets", "MongoDB"],
-        liveUrl: "https://daency.com/",
-        featured: true,
-    },
-    {
-        title: "Daily Stocks",
-        description: "A push notification service to get daily updates of Dhaka stock exchange with real-time data.",
-        image: "/assets/featured-projects/dailystocks.png",
-        technologies: ["Vue.js", "TypeScript", "Flask", "PostgreSQL", "Redis"],
-        liveUrl: "https://dailystocks.info/",
-        featured: true,
-    },
-    {
-        title: "Bikribatta",
-        description: "An inventory solution for managing business operations in a simple and efficient way.",
-        image: "/assets/featured-projects/bikribatta.png",
-        technologies: ["Vue.js", "TypeScript", "Node.js", "MongoDB"],
-        liveUrl: "https://app.bikribatta.com/",
-        featured: false,
-    },
-    {
-        title: "Project Management Tool",
-        description: "A comprehensive project management platform built for interior design workflow management.",
-        image: "/assets/featured-projects/project.png",
-        technologies: ["React.js", "Flask", "PostgreSQL"],
-        liveUrl: "https://sheraspace.com/",
-        featured: false,
-    },
-];
-
 export const Projects: FC = () => {
+    const projects = [
+        {
+            title: "TissueConnect",
+            description: "A predictive analytics platform for innovative diagnostics and therapies in spinal diseases, including an Electron-based application integrated with Vue.js and Python for analyzing MRI data.",
+            image: `${process.env.PUBLIC_URL}/assets/featured-projects/tissueconnect.png`,
+            technologies: ["Vue.js", "JavaScript", "Electron", "PostgreSQL", "Flask", "Azure"],
+            liveUrl: "https://tissueconnect.ai/",
+            featured: true,
+        },
+        {
+            title: "Biddaan",
+            description: "An education platform for conducting online classes and managing the overall course management. Contributed to both admin portal and main website development, focusing on course and class management, report generation, and course preview integration.",
+            image: `${process.env.PUBLIC_URL}/assets/featured-projects/biddan.png`,
+            technologies: ["Vue.js", "JavaScript", "Express.js", "MongoDB", "AWS"],
+            liveUrl: "https://biddaan.com/",
+            featured: true,
+        },
+        {
+            title: "AI Mate",
+            description: "A mobile chatbot based on OpenAI's GPT API. Built the REST API using OpenAPI specifications and developed the admin side of the project for managing chatbot interactions and user data.",
+            image: `${process.env.PUBLIC_URL}/assets/featured-projects/aimate.webp`,
+            technologies: ["TypeScript", "Vue.js", "Express.js", "Redis", "Jest", "MongoDB"],
+            liveUrl: "https://play.google.com/store/apps/details?id=com.aimate.app",
+            featured: true,
+        },
+        {
+            title: "Daency",
+            description: "An Online group dance platform where users can learn from interactive classes with real-time features.",
+            image: `${process.env.PUBLIC_URL}/assets/featured-projects/daency.png`,
+            technologies: ["Vue.js", "TypeScript", "Node.js", "WebSockets", "MongoDB"],
+            liveUrl: "https://daency.com/",
+            featured: true,
+        },
+        {
+            title: "Daily Stocks",
+            description: "A push notification service to get daily updates of Dhaka stock exchange with real-time data.",
+            image: `${process.env.PUBLIC_URL}/assets/featured-projects/dailystocks.png`,
+            technologies: ["Vue.js", "TypeScript", "Flask", "PostgreSQL", "Redis"],
+            liveUrl: "https://dailystocks.info/",
+            featured: true,
+        },
+        {
+            title: "Bikribatta",
+            description: "An inventory solution for managing business operations in a simple and efficient way.",
+            image: `${process.env.PUBLIC_URL}/assets/featured-projects/bikribatta.png`,
+            technologies: ["Vue.js", "TypeScript", "Node.js", "MongoDB"],
+            liveUrl: "https://app.bikribatta.com/",
+            featured: false,
+        },
+        {
+            title: "Project Management Tool",
+            description: "A comprehensive project management platform built for interior design workflow management.",
+            image: `${process.env.PUBLIC_URL}/assets/featured-projects/project.png`,
+            technologies: ["React.js", "Flask", "PostgreSQL"],
+            liveUrl: "https://sheraspace.com/",
+            featured: false,
+        },
+    ];
+
     const bgColor = useColorModeValue("gray.50", "gray.800");
     const cardBg = useColorModeValue("white", "gray.700");
     const borderColor = useColorModeValue("gray.200", "gray.600");
