@@ -14,7 +14,6 @@ import {
 } from "@chakra-ui/react";
 import {
     FiMail,
-    FiPhone,
     FiMapPin,
     FiLinkedin,
     FiGithub,

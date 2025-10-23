@@ -10,7 +10,7 @@ import {
     Icon,
     useColorModeValue,
 } from "@chakra-ui/react";
-import { FiCode, FiUsers, FiTrendingUp, FiHeart } from "react-icons/fi";
+import { FiCode, FiUsers, FiTrendingUp } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const MotionBox = motion(Box);

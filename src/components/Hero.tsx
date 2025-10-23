@@ -10,7 +10,7 @@ import {
     Image,
     useColorModeValue,
 } from "@chakra-ui/react";
-import { FiDownload, FiMail } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const MotionBox = motion(Box);

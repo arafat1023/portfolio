@@ -28,8 +28,6 @@ import {
     SiLinux,
     SiTailwindcss,
     SiFlask,
-    SiHtml5,
-    SiCss3,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
