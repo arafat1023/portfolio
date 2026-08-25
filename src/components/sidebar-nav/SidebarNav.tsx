@@ -154,7 +154,7 @@ export const SidebarNav: FC = () => {
                                 bg: activeBg,
                                 transform: "scale(1.1)",
                             }}
-                            onClick={() => window.open("https://www.linkedin.com/in/arafat-hossain-b58659108/", "_blank")}
+                            onClick={() => window.open("https://linkedin.com/in/arafat-hossain-dev", "_blank")}
                         />
                     </Tooltip>
                     
