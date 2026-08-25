@@ -1,22 +1,20 @@
 {
-    "name": "Arafat hossain",
+    "name": "Arafat Hossain",
     "logoType": {
-        "mobile": "HP",
+        "mobile": "AH",
         "desktop": "Arafat Hossain"
     },
-    "mainPicture": "/assets/HP.webp",
-    "mainPictureJPG": "/assets/HP.jpeg",
-    "pronunciation": "/ri-shi-kaysh/",
-    "audioFile": "/assets/name-pro.mp3",
-    "cssVarPrefix": "hp",
-    "email": "arafathossain847@@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/arafat-hossain-b58659108/",
+    "mainPicture": "/assets/landing/face.webp",
+    "mainPictureJPG": "/assets/landing/face.jpg",
+    "cssVarPrefix": "ah",
+    "email": "arafathossain847@gmail.com",
+    "linkedin": "https://linkedin.com/in/arafat-hossain-dev",
     "github": "https://github.com/arafat1023",
     "resume": "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1s3G7PiPHlK3Ett_W-WUU01GQnsggiLrWZB3IiMAgBEk/export?format=pdf",
     "socials": [
         {
             "type": "linkedin",
-            "link": "https://www.linkedin.com/in/arafat-hossain-b58659108/"
+            "link": "https://linkedin.com/in/arafat-hossain-dev"
         },
         {
             "type": "github",
@@ -24,7 +22,7 @@
         },
         {
             "type": "mail",
-            "link": "arafathossain847@@gmail.com"
+            "link": "arafathossain847@gmail.com"
         }
     ]
 }

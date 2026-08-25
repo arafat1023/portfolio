@@ -14,7 +14,6 @@ import {
 } from "@chakra-ui/react";
 import {
     FiMail,
-    FiPhone,
     FiMapPin,
     FiLinkedin,
     FiGithub,
@@ -265,7 +264,7 @@ export const Contact: FC = () => {
                                         w="full"
                                         maxW="300px"
                                         as="a"
-                                        href="mailto:arafathossain.contact@gmail.com"
+                                        href="mailto:arafathossain847@gmail.com"
                                         _hover={{
                                             transform: "translateY(-2px)",
                                             shadow: "lg",

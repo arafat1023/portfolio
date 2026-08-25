@@ -18,51 +18,60 @@ import { motion } from "framer-motion";
 
 const MotionBox = motion(Box);
 
-const projects = [
+interface Project {
+    title: string;
+    description: string;
+    image: string;
+    technologies: string[];
+    liveUrl: string;
+    featured: boolean;
+}
+
+const professionalProjects: Project[] = [
     {
         title: "TissueConnect",
-        description: "A predictive analytics platform for innovative diagnostics and therapies in spinal diseases, including an Electron-based application integrated with Vue.js and Python for analyzing MRI data.",
-        image: "/assets/featured-projects/tissueconnect.png",
+        description: "A predictive-analytics platform for spinal disease diagnostics. Led architecture end-to-end - backend services, database schemas, and secure Azure cloud infrastructure with Key Vault encryption for HIPAA-aligned clinical MRI data.",
+        image: `${process.env.PUBLIC_URL}/assets/featured-projects/tissueconnect.png`,
         technologies: ["Vue.js", "JavaScript", "Electron", "PostgreSQL", "Flask", "Azure"],
-        liveUrl: "https://tissueconnect.ai/",
+        liveUrl: "https://www.sdi-global.ai/",
         featured: true,
     },
     {
         title: "Biddaan",
-        description: "An education platform for conducting online classes and managing the overall course management. Contributed to both admin portal and main website development, focusing on course and class management, report generation, and course preview integration.",
-        image: "/assets/featured-projects/biddan.png",
+        description: "A multi-tenant SaaS education platform for online classes and course management. Designed and automated Nginx reverse-proxy configuration for the multi-tenant architecture, plus report generation, analytics, and a course-preview feature.",
+        image: `${process.env.PUBLIC_URL}/assets/featured-projects/biddan.png`,
         technologies: ["Vue.js", "JavaScript", "Express.js", "MongoDB", "AWS"],
         liveUrl: "https://biddaan.com/",
         featured: true,
     },
     {
         title: "AI Mate",
-        description: "A mobile chatbot based on OpenAI's GPT API. Built the REST API using OpenAPI specifications and developed the admin side of the project for managing chatbot interactions and user data.",
-        image: "/assets/featured-projects/aimate.webp",
+        description: "A GPT-powered mobile chatbot. Architected type-safe REST APIs from OpenAPI specifications and built the complete admin dashboard for chatbot configuration, user management, and analytics, supporting 50,000 users.",
+        image: `${process.env.PUBLIC_URL}/assets/featured-projects/aimate.webp`,
         technologies: ["TypeScript", "Vue.js", "Express.js", "Redis", "Jest", "MongoDB"],
         liveUrl: "https://play.google.com/store/apps/details?id=com.aimate.app",
         featured: true,
     },
     {
         title: "Daency",
-        description: "An Online group dance platform where users can learn from interactive classes with real-time features.",
-        image: "/assets/featured-projects/daency.png",
-        technologies: ["Vue.js", "TypeScript", "Node.js", "WebSockets", "MongoDB"],
+        description: "An online group-dance platform with real-time, interactive classes for international clients. Integrated WebRTC for live video, Stripe for payments, and Redis-based event-driven task queues, supporting 500+ concurrent users.",
+        image: `${process.env.PUBLIC_URL}/assets/featured-projects/daency.png`,
+        technologies: ["Vue.js", "TypeScript", "Node.js", "WebSockets", "Stripe", "MongoDB"],
         liveUrl: "https://daency.com/",
         featured: true,
     },
     {
         title: "Daily Stocks",
         description: "A push notification service to get daily updates of Dhaka stock exchange with real-time data.",
-        image: "/assets/featured-projects/dailystocks.png",
+        image: `${process.env.PUBLIC_URL}/assets/featured-projects/dailystocks.png`,
         technologies: ["Vue.js", "TypeScript", "Flask", "PostgreSQL", "Redis"],
         liveUrl: "https://dailystocks.info/",
-        featured: true,
+        featured: false,
     },
     {
         title: "Bikribatta",
-        description: "An inventory solution for managing business operations in a simple and efficient way.",
-        image: "/assets/featured-projects/bikribatta.png",
+        description: "An inventory-management SaaS for SMEs, built from the ground up - accounts, reporting, and employee management. Spearheaded the migration from Backbone.js to Vue 3.",
+        image: `${process.env.PUBLIC_URL}/assets/featured-projects/bikribatta.png`,
         technologies: ["Vue.js", "TypeScript", "Node.js", "MongoDB"],
         liveUrl: "https://app.bikribatta.com/",
         featured: false,
@@ -70,20 +79,62 @@ const projects = [
     {
         title: "Project Management Tool",
         description: "A comprehensive project management platform built for interior design workflow management.",
-        image: "/assets/featured-projects/project.png",
+        image: `${process.env.PUBLIC_URL}/assets/featured-projects/project.png`,
         technologies: ["React.js", "Flask", "PostgreSQL"],
         liveUrl: "https://sheraspace.com/",
         featured: false,
     },
 ];
 
-export const Projects: FC = () => {
-    const bgColor = useColorModeValue("gray.50", "gray.800");
+const personalProjects: Project[] = [
+    {
+        title: "ZikrFlow",
+        description: "A community dhikr-tracking app for the global Muslim community - tap counters, public/private rooms, streaks, and leaderboards, with full offline support. Live on Google Play.",
+        image: "https://opengraph.githubassets.com/1/arafat1023/ZikrFlow",
+        technologies: ["Flutter", "Dart", "Firebase", "Next.js"],
+        liveUrl: "https://play.google.com/store/apps/details?id=com.zikrflow.app",
+        featured: false,
+    },
+    {
+        title: "BhashaVoice",
+        description: "Open-source, self-hostable voice-cloning platform - clone a voice from a short recording, then generate speech in Bangla or English from the same voice, with dataset pipelines and fine-tuning workflows.",
+        image: "https://opengraph.githubassets.com/1/arafat1023/bhashavoice",
+        technologies: ["Python", "FastAPI", "IndicF5", "Chatterbox"],
+        liveUrl: "https://github.com/arafat1023/bhashavoice",
+        featured: false,
+    },
+    {
+        title: "QueryPlayground",
+        description: "Practice real PostgreSQL and MongoDB queries entirely in the browser - no signup, no server. PostgreSQL 17 compiles to WebAssembly via PGlite; MongoDB queries run client-side.",
+        image: "https://opengraph.githubassets.com/1/arafat1023/QueryPlayground",
+        technologies: ["React", "TypeScript", "WebAssembly"],
+        liveUrl: "https://github.com/arafat1023/QueryPlayground",
+        featured: false,
+    },
+    {
+        title: "ZeroShutter",
+        description: "A privacy-first image editor that runs entirely in the browser - crop, adjust, watermark, and batch export to ZIP, with automatic EXIF stripping. No uploads, no servers, no tracking.",
+        image: "https://opengraph.githubassets.com/1/arafat1023/ZeroShutter",
+        technologies: ["React", "TypeScript", "Canvas API"],
+        liveUrl: "https://github.com/arafat1023/ZeroShutter",
+        featured: false,
+    },
+];
+
+interface ProjectSectionProps {
+    id: string;
+    heading: string;
+    highlight: string;
+    subheading: string;
+    items: Project[];
+}
+
+const ProjectSection: FC<ProjectSectionProps> = ({ id, heading, highlight, subheading, items }) => {
     const cardBg = useColorModeValue("white", "gray.700");
     const borderColor = useColorModeValue("gray.200", "gray.600");
 
     return (
-        <Box id="projects" py={20} bg={bgColor}>
+        <Box id={id} py={20}>
             <Container maxW="7xl">
                 <VStack spacing={16}>
                     {/* Section Header */}
@@ -100,13 +151,13 @@ export const Projects: FC = () => {
                             fontWeight="800"
                             mb={4}
                         >
-                            Featured{" "}
+                            {heading}{" "}
                             <Text as="span" bgGradient="linear(to-r, brand.400, accent.400)" bgClip="text">
-                                Projects
+                                {highlight}
                             </Text>
                         </Heading>
                         <Text fontSize="xl" color="gray.500" maxW="2xl">
-                            Some of the projects I've worked on recently
+                            {subheading}
                         </Text>
                     </MotionBox>
 
@@ -116,7 +167,7 @@ export const Projects: FC = () => {
                         gap={8}
                         w="full"
                     >
-                        {projects.map((project, index) => (
+                        {items.map((project, index) => (
                             <MotionBox
                                 key={project.title}
                                 initial={{ opacity: 0, y: 30 }}
@@ -240,5 +291,33 @@ export const Projects: FC = () => {
                 </VStack>
             </Container>
         </Box>
+    );
+};
+
+export const Projects: FC = () => {
+    const professionalBg = useColorModeValue("gray.50", "gray.800");
+    const personalBg = useColorModeValue("white", "gray.900");
+
+    return (
+        <>
+            <Box bg={professionalBg}>
+                <ProjectSection
+                    id="projects"
+                    heading="Featured"
+                    highlight="Projects"
+                    subheading="Client and product work from my time at Nerddevs and Sheraspace"
+                    items={professionalProjects}
+                />
+            </Box>
+            <Box bg={personalBg}>
+                <ProjectSection
+                    id="personal-projects"
+                    heading="Personal"
+                    highlight="Projects"
+                    subheading="Things I build and ship on my own time"
+                    items={personalProjects}
+                />
+            </Box>
+        </>
     );
 };

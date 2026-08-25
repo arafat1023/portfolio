@@ -1,21 +1,15 @@
 import { FC } from "react";
 
-import { Box, Flex, Heading, Text, Image, Button, IconButton } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react";
 
 import { configs, Content, MarkdownFile, useContent } from "shared/content/Content";
 import { Blog } from "pages/about/blog/Blog";
 import { Education } from "pages/about/education/Education";
 import { Experience } from "pages/about/experience/Experience";
 import { Skills } from "pages/about/skills/Skills";
-import { VolumeIcon } from "utils/Icons";
 
 export const About: FC = () => {
     const content = useContent(MarkdownFile.About);
-
-    const onPlay = () => {
-        const audio = new Audio(configs.common.audioFile);
-        audio.play();
-    };
 
     return (
         <Box>

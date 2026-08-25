@@ -13,20 +13,31 @@
         {
             "id": "exp-1",
             "company": "Nerddevs",
-            "position": "Software Engineer",
-            "duration": "September 2021 - Present",
+            "position": "Senior Software Engineer",
+            "duration": "January 2023 - Present",
             "description": [
-                "Worked on frontend, backend, database to implement solutions for multiple projects using various technology",
-                "Learned industry best practices under senior engineers"
+                "Led architecture and end-to-end development of TissueConnect, a clinical MRI diagnostics platform for spinal disease, including HIPAA-aligned Azure cloud infrastructure with Key Vault encryption",
+                "Built Biddaan, a multi-tenant SaaS education platform with automated Nginx reverse-proxy deployment",
+                "Built AI Mate, a GPT-powered mobile chatbot with type-safe REST APIs from OpenAPI specs, supporting 50,000 users"
             ]
         },
         {
             "id": "exp-2",
+            "company": "Nerddevs",
+            "position": "Software Engineer",
+            "duration": "September 2021 - December 2022",
+            "description": [
+                "Built Daency, a live group-dance platform integrating WebRTC video and Stripe payments for 500+ concurrent users",
+                "Built Bikribatta, an inventory-management SaaS for SMEs, and led the migration from Backbone.js to Vue 3"
+            ]
+        },
+        {
+            "id": "exp-3",
             "company": "Sheraspace",
             "position": "Software Engineer",
-            "duration": "March 2018 - August 2021",
+            "duration": "March 2019 - August 2021",
             "description": [
-                "worked from scratch on a project management tool from the setup to deployment"
+                "Engineered a project-management web app from scratch through deployment - accounts, HR modules, and reporting with advanced PostgreSQL queries and Chart.js visualizations"
             ]
         }
     ],
@@ -43,16 +54,19 @@
         },
         {
             "title": "Web",
-            "tools": ["React", "Vue", "NodeJS", "Flask",  "NGXS", "HTML/CSS", "OAuth", "i18n"]
+            "tools": ["Vue", "React", "NodeJS", "Flask", "Electron", "HTML/CSS", "i18n"]
         },
         {
             "title": "Databases",
-            "tools": ["MongoDB", "Redis", "MySQL", "Postgresql"]
+            "tools": ["PostgreSQL", "MongoDB", "Redis"]
         },
-
+        {
+            "title": "Cloud",
+            "tools": ["Azure", "AWS", "Docker", "Nginx"]
+        },
         {
             "title": "OS & Tools",
-            "tools": ["Linux", "Git", "Agile (Scrum)", "MVC", "Jenkins", "Heroku", "Docker"]
+            "tools": ["Linux", "Git", "Agile (Scrum)", "Jenkins", "Heroku"]
         }
     ]
 }

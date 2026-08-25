@@ -1,14 +1,69 @@
 [
     {
+        "id": "featured-project-tissueconnect",
+        "title": "TissueConnect",
+        "year": "January 2023 - Present",
+        "location": "Dhaka,Nerddevs",
+        "demo": "https://www.sdi-global.ai/",
+        "tags": ["Vuejs", "TypeScript", "Electron", "Flask", "Python", "PostgreSQL", "Azure"],
+        "description": "A predictive-analytics platform for spinal disease diagnostics. Led architecture end-to-end - backend services, database schemas, and secure Azure cloud infrastructure with Key Vault encryption for HIPAA-aligned clinical MRI data. Built the muscle-analysis and MRI-segmentation pipelines behind it.",
+        "image": "/assets/featured-projects/tissueconnect.png",
+        "jpg": "/assets/featured-projects/tissueconnect.png"
+    },
+    {
+        "id": "featured-project-biddaan",
+        "title": "Biddaan",
+        "year": "January 2023 - Present",
+        "location": "Dhaka,Nerddevs",
+        "demo": "https://biddaan.com",
+        "tags": ["Vuejs", "TypeScript", "NodeJS", "MongoDB", "AWS", "Nginx"],
+        "description": "A multi-tenant SaaS education platform for online classes and course management. Designed and automated Nginx reverse-proxy configuration for the multi-tenant architecture, plus report generation, analytics, and a course-preview feature.",
+        "image": "/assets/featured-projects/biddaan.webp",
+        "jpg": "/assets/featured-projects/biddan.png"
+    },
+    {
+        "id": "featured-project-aimate",
+        "title": "AI Mate",
+        "year": "January 2023 - Present",
+        "location": "Dhaka,Nerddevs",
+        "demo": "https://play.google.com/store/apps/details?id=com.aimate.app",
+        "tags": ["TypeScript", "Vuejs", "NodeJS", "OpenAI", "Redis", "MongoDB"],
+        "description": "A GPT-powered mobile chatbot. Architected type-safe REST APIs from OpenAPI specifications and built the complete admin dashboard for chatbot configuration, user management, and analytics, supporting 50,000 users.",
+        "image": "/assets/featured-projects/aimate.webp",
+        "jpg": "/assets/featured-projects/aimate.webp"
+    },
+    {
         "id": "featured-project-daency",
         "title": "Daency",
-        "year": "September 2021 - Present",
+        "year": "September 2021 - December 2022",
         "location": "Dhaka,Nerddevs",
         "demo": "https://daency.com/",
-        "tags": ["Vuejs", "TypeScript", "NodeJS", "Web Sockets", "Vuetify", "Mongodb", "Redis"],
-        "description": "An Online group dance platfrom where user can learn from interactive classes.",
+        "tags": ["Vuejs", "TypeScript", "NodeJS", "Web Sockets", "Redis", "Stripe", "Mongodb"],
+        "description": "An online group-dance platform with real-time, interactive classes for international clients. Integrated WebRTC for live video, Stripe for payments, and Redis-based event-driven task queues, supporting 500+ concurrent users across 30+ live classes.",
         "image": "/assets/featured-projects/daency.png",
         "jpg": "/assets/featured-projects/daency.png"
+    },
+    {
+        "id": "featured-project-bikribatta",
+        "title": "Bikribatta",
+        "year": "September 2021 - December 2022",
+        "location": "Dhaka,Nerddevs",
+        "demo": "https://app.bikribatta.com/",
+        "tags": ["Vuejs", "TypeScript", "NodeJS", "Mongodb", "backbonejs"],
+        "description": "An inventory-management SaaS for SMEs, built from the ground up - accounts, reporting, and employee management. Spearheaded the migration from Backbone.js to Vue 3.",
+        "image": "/assets/featured-projects/bikribatta.png",
+        "jpg": "/assets/featured-projects/bikribatta.jpeg"
+    },
+    {
+        "id": "featured-project-palette",
+        "title": "Project management",
+        "year": "March 2019 - August 2021",
+        "location": "Dhaka,Sheraspace",
+        "demo": "https://sheraspace.com/",
+        "tags": ["Reactjs", "flask", "postgresql"],
+        "description": "A project-management web app for Sheraspace's interior-design platform, engineered from scratch - account management, HR modules, and reporting with advanced PostgreSQL queries and Chart.js visualizations.",
+        "image": "/assets/featured-projects/project.png",
+        "jpg": "/assets/featured-projects/project.png"
     },
     {
         "id": "featured-project-daily-stocks",
@@ -16,31 +71,9 @@
         "year": "Jan 2022 - Present",
         "location": "Dhaka,Nerddevs",
         "demo": "https://dailystocks.info/",
-        "tags": ["Vuejs", "TypeScript", "NodeJS", "flask", "postgresql", "Push notification", "Web Sockets", "Vuetify", "Mongodb", "Redis"],
-        "description": "A push notification service to get daily update of dhaka stock exchange.",
+        "tags": ["Vuejs", "TypeScript", "NodeJS", "flask", "postgresql", "Push notification", "Web Sockets", "Mongodb", "Redis"],
+        "description": "A push-notification service delivering daily updates from the Dhaka Stock Exchange.",
         "image": "/assets/featured-projects/dailystocks.png",
         "jpg": "/assets/featured-projects/dailystocks.jpeg"
-    },
-    {
-        "id": "featured-project-bikribatta",
-        "title": "Bikribatta",
-        "year": "Jan 2022 - Present",
-        "location": "Dhaka,Nerddevs",
-        "demo": "https://app.bikribatta.com/",
-        "tags": ["Vuejs", "TypeScript", "NodeJS", "Mongodb", "backbonejs"],
-        "description": "An inventory solution for managing business in a simple way",
-        "image": "/assets/featured-projects/bikribatta.png",
-        "jpg": "/assets/featured-projects/bikribatta.jpeg"
-    },
-    {
-        "id": "featured-project-palette",
-        "title": "Project management",
-        "year": "March 2019 - August,2021",
-        "location": "Dhaka,Sheraspace",
-        "demo": "https://sheraspace.com/",
-        "tags": ["Reactjs", "flask", "postgresql"],
-        "description": "A project management tool for interior based platfrom of sheraspace company",
-        "image": "/assets/featured-projects/project.png",
-        "jpg": "/assets/featured-projects/project.png"
     }
 ]

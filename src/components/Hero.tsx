@@ -10,7 +10,7 @@ import {
     Image,
     useColorModeValue,
 } from "@chakra-ui/react";
-import { FiDownload, FiMail } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const MotionBox = motion(Box);
@@ -102,10 +102,10 @@ export const Hero: FC = () => {
                                 transition={{ duration: 0.8, delay: 0.6 }}
                             >
                                 <Text as="span" bgGradient="linear(to-r, brand.400, accent.400)" bgClip="text">
-                                    Software Engineer
+                                    Senior Software Engineer
                                 </Text>
                                 {" "}
-                                passionate about creating amazing web experiences
+                                building healthcare, EdTech &amp; AI-driven platforms
                             </MotionText>
                         </MotionBox>
 
@@ -117,9 +117,9 @@ export const Hero: FC = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.8 }}
                         >
-                            I'm a full-stack developer based in Dhaka, Bangladesh, specializing in
-                            modern web technologies like React, Vue.js, and Node.js. I love building
-                            scalable applications and learning new technologies.
+                            I'm a full-stack engineer based in Dhaka, Bangladesh, with 7+ years building
+                            production applications in Vue.js, React, Node.js, and Python. I love owning
+                            systems end to end and shipping AI-integrated products.
                         </MotionText>
 
                         <MotionBox
@@ -179,7 +179,7 @@ export const Hero: FC = () => {
                             }}
                         >
                             <Image
-                                src="/assets/landing/face.jpg"
+                                src={`${process.env.PUBLIC_URL}/assets/landing/face.jpg`}
                                 alt="Arafat Hossain"
                                 borderRadius="full"
                                 w="400px"

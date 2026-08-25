@@ -25,6 +25,7 @@ const navItems = [
     { label: "About", href: "#about" },
     { label: "Tech Stack", href: "#tech-stack" },
     { label: "Projects", href: "#projects" },
+    { label: "Personal Projects", href: "#personal-projects" },
     { label: "Contact", href: "#contact" },
 ];
 

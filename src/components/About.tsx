@@ -10,16 +10,16 @@ import {
     Icon,
     useColorModeValue,
 } from "@chakra-ui/react";
-import { FiCode, FiUsers, FiTrendingUp, FiHeart } from "react-icons/fi";
+import { FiCode, FiUsers, FiTrendingUp } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const MotionBox = motion(Box);
 const MotionGrid = motion(Grid);
 
 const stats = [
-    { icon: FiCode, label: "Projects Completed", value: "20+" },
-    { icon: FiUsers, label: "Happy Clients", value: "15+" },
-    { icon: FiTrendingUp, label: "Years Experience", value: "5+" },
+    { icon: FiCode, label: "Years Experience", value: "7+" },
+    { icon: FiTrendingUp, label: "Users Served (AI Mate)", value: "50K+" },
+    { icon: FiUsers, label: "Concurrent Users (Daency)", value: "500+" },
 ];
 
 export const About: FC = () => {
@@ -51,7 +51,7 @@ export const About: FC = () => {
                             </Text>
                         </Heading>
                         <Text fontSize="xl" color="gray.500" maxW="2xl">
-                            Experienced software engineer with 5+ years of expertise in building scalable web applications
+                            Senior software engineer with 7+ years building production web and desktop applications across healthcare, EdTech, and AI-driven platforms
                         </Text>
                     </MotionBox>
 
@@ -71,7 +71,7 @@ export const About: FC = () => {
                                     My Journey
                                 </Heading>
                                 <Text fontSize="lg" color="gray.600" lineHeight="tall">
-                                    I'm a Software Engineer at{" "}
+                                    I'm a Senior Software Engineer at{" "}
                                     <Text as="span" color="brand.400" fontWeight="600">
                                         Nerddevs
                                     </Text>{" "}
@@ -82,15 +82,15 @@ export const About: FC = () => {
                                     with a BSC in Computer Science and Engineering.
                                 </Text>
                                 <Text fontSize="lg" color="gray.600" lineHeight="tall">
-                                    With 5+ years of expertise in building scalable web applications, I have a strong track record of{" "}
+                                    With 7+ years building production systems, I have a strong track record leading{" "}
                                     <Text as="span" color="brand.400" fontWeight="600">
-                                        leading feature implementation
+                                        architecture end-to-end
                                     </Text>{" "}
-                                    and{" "}
+                                    on platforms like TissueConnect (clinical MRI diagnostics) and{" "}
                                     <Text as="span" color="brand.400" fontWeight="600">
-                                        optimizing application performance
-                                    </Text>.
-                                    I'm passionate about creating efficient solutions across frontend, backend, and database development.
+                                        AI Mate
+                                    </Text>{" "}
+                                    (a GPT-powered chatbot). I'm passionate about creating efficient solutions across frontend, backend, cloud, and database development.
                                 </Text>
                                 
                                 {/* Leadership Experience */}

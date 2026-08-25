@@ -28,8 +28,7 @@ import {
     SiLinux,
     SiTailwindcss,
     SiFlask,
-    SiHtml5,
-    SiCss3,
+    SiElectron,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -45,6 +44,7 @@ const techCategories = [
             { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
             { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
             { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+            { name: "Electron", icon: SiElectron, color: "#47848F" },
         ],
     },
     {
